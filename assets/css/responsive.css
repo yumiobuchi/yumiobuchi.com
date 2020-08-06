@@ -117,7 +117,6 @@
 
 	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
 		margin-bottom: 0px;
-		/* padding-bottom: 200px; */
 	}
 
 	.section-works .container {
@@ -184,7 +183,7 @@
 	.section-portfolio .col-xs-6:nth-child(odd) {
 		/* padding-left: 10px;
 		padding-right: 10px; */
-		padding-bottom: 300px;
+		padding-bottom: 350px;
 	}
 
 	.section-portfolio .col-xs-6:nth-child(even) {
