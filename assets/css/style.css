@@ -61,7 +61,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #212121;
 }
@@ -81,7 +81,7 @@ html, body {
 }
 
 .highlight{
-    font-weight: 1000;
+    font-weight: 700;
     color:#f5f5f5;
 }
 
@@ -99,7 +99,7 @@ html, body {
 /* Navigation */
 .navbar-nav > li > a {
     padding: 5px 0;
-    font-weight: 600;
+    font-weight: 400;
     color: #212121;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
@@ -139,7 +139,7 @@ html, body {
 .name{
     font-size: 50px;
     text-transform: uppercase;
-    font-weight: 1000;
+    font-weight: 500;
 }
 
 .job-title {
@@ -166,7 +166,7 @@ html, body {
 .big{
     text-align: center;
     font-size: 30px;
-    font-weight: 1000;
+    font-weight: 700;
 }
 
 .profile-img{
@@ -241,9 +241,21 @@ html, body {
     line-height: 1.6;
 }
 
-.timeline li{
-    margin-bottom: 60px;
+.team {
+    font-size: 15px;
+    font-weight:500;
+    color: #9B2335;
 }
+
+.work-item {
+    margin-left: 30px;
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+/* .timeline li{
+    margin-bottom: 60px;
+} */
 
 .timeline h1{
     font-size: 20px;
@@ -252,6 +264,15 @@ html, body {
     margin-bottom: 8px;
     border-bottom: 1px solid rgba(70, 34, 34, 0.3);
 }
+
+.timeline h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
 
 .timeline p{
     width: 100%;
@@ -282,9 +303,9 @@ html, body {
     content: '';
     box-shadow: 0 0 0 4px pink;
     border-radius: 100%;
-    left: -96px;
-    height: 24px;
-    width: 24px;
+    left: -85px;
+    height: 10px;
+    width: 10px;
     background: #fb9190;
 }
 
@@ -391,7 +412,7 @@ html, body {
 
 .portfolio-item-detail h4 {
     margin: 0 0 20px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .portfolio-item-detail{
     padding-top: 30px;
