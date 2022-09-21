@@ -309,6 +309,20 @@ html, body {
     background: #fb9190;
 }
 
+.timeline .date#oracle:after{
+    box-shadow: 0 0 0 4px red;
+    background: black;
+}
+
+.timeline .date#pwc:after{
+    box-shadow: 0 0 0 4px #AD1B02;
+    background: #F3BE26;
+}
+
+.timeline .date#marvel:after{
+    box-shadow: 0 0 0 4px red;
+    background: white;
+}
 
 /* Section: Portfolio */
 .section-portfolio {
