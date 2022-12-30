@@ -216,6 +216,10 @@ html, body {
     list-style: none;
 }
 
+.cat{
+    color: #dddddd;
+}
+
 .section-works .container {
     width: 100%;
     padding: 30px 100px;
