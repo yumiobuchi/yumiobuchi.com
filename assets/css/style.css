@@ -313,6 +313,11 @@ html, body {
     background: #fb9190;
 }
 
+.timeline .date#square:after{
+    box-shadow: 0 0 0 4px black;
+    background: white;
+}
+
 .timeline .date#oracle:after{
     box-shadow: 0 0 0 4px red;
     background: black;
